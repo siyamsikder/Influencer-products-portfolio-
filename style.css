@@ -1,0 +1,56 @@
+/* shared styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* shared calor */
+
+/* navbar related style */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: #3A3A3A;
+}
+.navbar-h1{
+    color:#3A3A3A ;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+@media(max-width:640px){
+    .navbar ul li a{
+        display: none;
+    }
+    .navbar ul li .curt{
+        display: block;
+    }
+}
+@media(max-width:746px){
+    .navbar ul li a{
+        display: none;
+    }
+    .navbar ul li .curt{
+        display: block;
+    }
+}
+
+/* hero section style */
+
